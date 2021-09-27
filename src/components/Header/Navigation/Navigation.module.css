@@ -1,0 +1,16 @@
+.navigation {
+display: flex;
+    flex-direction: row;
+}
+
+.item  a {
+    color: #414141;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+    border-bottom: 2px solid #d7ced7;
+}
+
+.item:hover  a {
+    border-bottom: 2px solid #fff;
+}

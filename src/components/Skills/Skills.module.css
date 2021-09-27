@@ -1,0 +1,12 @@
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    min-height: 100vh;
+    border: 1px solid;
+    background: #8bf8c6;
+    flex-wrap: wrap;
+}
+
