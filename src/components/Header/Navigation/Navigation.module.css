@@ -13,4 +13,5 @@ display: flex;
 
 .item:hover  a {
     border-bottom: 2px solid #fff;
+
 }

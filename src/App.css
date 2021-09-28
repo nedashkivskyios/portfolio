@@ -1,3 +1,15 @@
+:root {
+  --containter-display: flex;
+  --containter-flex-direction: row;
+  --containter-justify-content: space-around;
+  --containter-align-items: center;
+  --containter-width: 80%;
+  --containter-min-height: 100vh;
+  --containter-border: 1px solid;
+  --containter-background: #a585c5;
+  --containter-flex-wrap: wrap;
+}
+
 header, body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -15,4 +27,8 @@ header, body {
   height: 100%;
   background: #414141;
 
+}
+
+.customStyle {
+  color: #4fbd38;
 }
