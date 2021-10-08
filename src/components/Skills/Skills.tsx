@@ -7,9 +7,9 @@ export const Skills = () => {
     <div id={'skills'} className={styles.skills}>
       <div className={styles.skillsTitle}>My skills</div>
       <div className={styles.skillsItems}>
-        <Skill />
-        <Skill />
-        <Skill />
+        <Skill/>
+        <Skill/>
+        <Skill/>
       </div>
 
     </div>

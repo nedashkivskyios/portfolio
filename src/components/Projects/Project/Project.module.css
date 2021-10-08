@@ -1,0 +1,61 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    min-height: 250px;
+    border: 1px solid;
+    margin: 10px;
+}
+
+.projectImage {
+    display: flex;
+    position: relative;
+    min-height: 100%;
+}
+
+.projectImage img {
+    width: 100%;
+    min-height: 100%;
+}
+
+.projectImage .projectImageButton {
+    /*display: flex;*/
+    /*position: absolute;*/
+    /*align-self: center;*/
+    /*left: 50%;*/
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(1,1,1,0.2);
+    color: lavender;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.projectImage .projectImageButton:hover {
+    background-color: rgba(1,1,1,0.4);
+}
+
+.projectTitle {
+    border: 1px dashed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 30px;
+}
+
+.projectDescription {
+    border: 1px dashed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30px;
+    width: 100%;
+}
