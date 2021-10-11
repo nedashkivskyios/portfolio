@@ -4,9 +4,31 @@
     justify-content: space-around;
     align-items: center;
     width: 80%;
-    min-height: 100vh;
+    min-height: 200px;
     border: 1px solid;
     background: #d7cb9c;
     flex-wrap: wrap;
 }
 
+.remoteBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 150px;
+    border: 1px dashed;
+
+}
+
+.remoteText {
+    font-size: large;
+}
+
+.remoteButton {
+
+}
+.remoteButton button {
+    width: 100px;
+    height: 25px;
+}

@@ -1,12 +1,27 @@
 .footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     width: 80%;
-    min-height: 100vh;
+    min-height: 100px;
     border: 1px solid;
     background: #4fbd38;
     flex-wrap: wrap;
 }
 
+.footerTitle {
+
+}
+
+.footerLinks {
+    border: 1px dashed;
+    width: 280px;
+    min-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerCopyright {
+}

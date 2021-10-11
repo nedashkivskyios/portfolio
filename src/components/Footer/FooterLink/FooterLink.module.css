@@ -1,0 +1,10 @@
+.footerLink {
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #8bf8c6;
+}

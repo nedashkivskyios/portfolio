@@ -1,12 +1,55 @@
 .contacts {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     width: 80%;
-    min-height: 100vh;
+    min-height: 50vh;
     border: 1px solid;
     background: #9f5959;
     flex-wrap: wrap;
 }
+
+.contactsTitle {
+    font-size: large;
+}
+
+.contactsWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    min-height: 300px;
+    border: 1px dashed;
+}
+
+.contactsInput {
+    width: 90%;
+}
+.contactsInput input {
+    min-height: 25px;
+    border: 1px solid lightblue;
+    width: 100%;
+}
+
+.contactsTA {
+
+    width: 90%;
+}
+
+.contactsTA textarea {
+
+    border: 1px solid lightblue;
+    width: 100%;
+}
+
+.contactsButton {
+
+}
+.contactsButton button {
+    width: 100px;
+    height: 25px;
+}
+
 
